@@ -19,13 +19,12 @@ This repository demonstrates how to deploy a static HTML web page to an Azure We
 
 ## Repository Structure
 
-├── README.md
+.
+├── .github/workflows/
+│      └── azure-webapp-deploy.yml
 ├── LICENSE
-├── index.html
-└── .github
-└── workflows
-└── azure-webapp-deploy.yml
-
+├── README.md
+└── index.html
 
 
 ## Workflow Details
