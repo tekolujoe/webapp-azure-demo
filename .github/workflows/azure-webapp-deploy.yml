@@ -1,4 +1,4 @@
-name: Deploy static HTML site to Azure Web App - webapp-azure
+name: Deploy static HTML to Azure Web App
 
 on:
   push:
@@ -9,6 +9,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Checkout code
